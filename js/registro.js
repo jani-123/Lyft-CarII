@@ -18,8 +18,7 @@ const registro  = {
 
     agregaComentario: function () {
 		localStorage.setItem(registro.item.nombre.val(), registro.item.correo.val());
-		alert( `<p> ${registro.item.nombre.val()} </p>\
-		        <p>  ${registro.item.correo.val()} </p>`);
+		alert("Nombre:  ${registro.item.nombre.val()}  Email: ${registro.item.correo.val()}");
 		
 	},
 	mostrar: function(){
