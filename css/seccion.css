@@ -1,0 +1,46 @@
+.form-group {
+    display: inline-flex;
+}
+.boton{
+    background-color: #d6d3d3;
+    border-radius: none;
+    height: 35px;
+}
+.dropdown-menu {
+    top: 35px;
+    width: 27.3em;
+}
+.dropdown{
+    background-position: center;
+    left: 160px;
+}
+.form-control {
+    width: 24em;
+}
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+}
+.texto{
+    text-align: center;
+}
+#siguiente{ 
+    position: absolute;
+    top: 140px; 
+    left: 250px;
+    background-color: #05A1AC;
+}
+#codigo{
+    position: absolute;
+    top: 140px;
+    background-color: #05A1AC;
+}
+#muestraCodigo p{
+    font-size: 2em;
+    color: #05A1AC;
+    text-align: center;
+}
+#muestraCodigo{
+    margin-top: 100px;
+}
