@@ -12,8 +12,9 @@ const registro  = {
     },
 
     setup: function () {
-        $('#registro').click (registro.agregaComentario);
+        $('#registro').click (registro.agregaComentario,registro.validarCorreo);
         $( "input[type=checkbox]" ).click(registro.aceptaCondiciones );
+       // $('#validaCorreo').click(registro.validarCorreo);
     },
 
     agregaComentario: function () {
@@ -36,6 +37,16 @@ const registro  = {
             alert("Debe aceptar las condiciones");
         }
       
+    },
+    validarCorreo: function() {
+        let validacion = /[\w-\.]{2,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+        if (validacion.test($('#correo').val().trim())) {
+            alert('Correo validado');
+        } else {
+            alert('La direccón de correo no es valida');
+        }
     }
 };
 $(document).ready ( registro.init );
+
+
