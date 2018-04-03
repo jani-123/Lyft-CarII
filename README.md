@@ -6,4 +6,3 @@ Lyft-car es un aplicativo móvil al cual se puede acceder por medio de una cuent
 
 ***
 ## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
-## En  [Peru](http://peru.com)
